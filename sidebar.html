@@ -1,5 +1,22 @@
+<!-- 可复用侧边栏，改自CodingLab -->
+<!-- 
+    head中，添加以下代码
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="sidebar.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 
-    <div class="logo_content">
+    body中添加以下代码，侧边栏相关元素会加到class为sidebar的div中
+    页面正文加在class为home_content的div中
+    <div class="sidebar"></div>
+    <div class="home_content">
+        <div class="text">Home Content</div>
+    </div>
+    <script type="text/javascript">
+        $(".sidebar").load('sidebar.html',function(){});
+    </script>
+-->
+
+<div class="logo_content">
       <div class="logo">
         <i class='bx bxs-virus-block'></i>
         <div class="logo_name">TestingLab</div>
